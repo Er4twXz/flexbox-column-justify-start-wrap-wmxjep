@@ -1,0 +1,27 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+#flexbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  max-height: 100%;
+  background: lightblue;
+  gap: 1rem;
+}
+
+#flexbox-item {
+  background: red;
+}
+
+#grid {
+  display: grid;
+  /* Change number based on number of rows */
+  grid-template-rows: repeat(4, auto);
+  grid-auto-flow: column;
+
+  background: lightblue;
+}
